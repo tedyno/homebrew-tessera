@@ -5,8 +5,12 @@ fast, native database client for macOS.
 
 ```sh
 brew tap tedyno/tessera
+brew trust tedyno/tessera
 brew install --cask tessera
 ```
+
+`brew trust` is required because Homebrew 6 refuses to load a cask from a third-party tap
+until you confirm you trust it.
 
 Tessera is signed with a self-signed certificate but **not notarized**, because
 notarization requires a paid Apple Developer account and Tessera is an open-source project

@@ -1,6 +1,6 @@
 cask "tessera" do
-  version "0.24.0"
-  sha256 "38dece86b72b5a40190566ffac9cf982812d99a25265dbee9fba71b61e822609"
+  version "0.25.0"
+  sha256 "a059fa7f79d41324b71b4318394c1c2113b3634b9cced48bd187a85dfdd56e89"
 
   url "https://github.com/tedyno/Tessera/releases/download/v#{version}/Tessera-#{version}.dmg"
   name "Tessera"
